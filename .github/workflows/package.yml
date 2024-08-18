@@ -22,7 +22,7 @@ jobs:
         python-version: 3.12
 
     - name: Unzip shared object file
-      run: unzip fbx.cpython-312-x86_64-linux-gnu.zip
+      run: unzip fbx.cpython-312-x86_64-linux-gnu.zip -d .
 
     - name: Install dependencies
       run: |
